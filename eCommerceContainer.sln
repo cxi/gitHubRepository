@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore.Layer", "eCommerceContainer\ApplicationCore.Layer.csproj", "{3F3A9630-DAA7-4F4D-99EB-C0D27012B70C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore.Layer", "eCommerceContainer\ApplicationCore.Layer.csproj", "{3F3A9630-DAA7-4F4D-99EB-C0D27012B70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Layer", "Infrastructure.Layer\Infrastructure.Layer.csproj", "{6BA9E2B6-54E4-443F-BACD-49BBE70FF0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Layer", "Infrastructure.Layer\Infrastructure.Layer.csproj", "{6BA9E2B6-54E4-443F-BACD-49BBE70FF0CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation.Layer", "Presentation.Layer\Presentation.Layer.csproj", "{E957A1C6-B402-4BCC-9416-BE2E588D7FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation.Layer", "Presentation.Layer\Presentation.Layer.csproj", "{E957A1C6-B402-4BCC-9416-BE2E588D7FC9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95390080-5A77-496D-BCCF-D709B299C12F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPA", "SPA\SPA.csproj", "{1856263B-76C4-423F-940A-30DD04159214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPA", "SPA\SPA.csproj", "{1856263B-76C4-423F-940A-30DD04159214}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3AAB0106-C326-48E8-97C7-07E0717309B0}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebMVC", "WebMVC", "{6A32DC5C-7B1A-461B-808F-377ADABD31EB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSPA", "WebSPA", "{A7A648A1-652A-4088-B9E2-6BDAD5741E1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E98EB1E5-1D55-4788-BCB7-0466CD37D2A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,7 @@ Global
 		{92BEA40D-4476-4A1F-B6BF-1D03DF2EF1A4} = {95390080-5A77-496D-BCCF-D709B299C12F}
 		{6A32DC5C-7B1A-461B-808F-377ADABD31EB} = {92BEA40D-4476-4A1F-B6BF-1D03DF2EF1A4}
 		{A7A648A1-652A-4088-B9E2-6BDAD5741E1F} = {92BEA40D-4476-4A1F-B6BF-1D03DF2EF1A4}
+		{E98EB1E5-1D55-4788-BCB7-0466CD37D2A8} = {95390080-5A77-496D-BCCF-D709B299C12F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A522D085-7D99-457D-8259-BF5E98B02509}
